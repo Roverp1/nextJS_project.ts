@@ -1,3 +1,12 @@
+import { lusitana } from '@/app/ui/fonts';
+
 export default function Page() {
-  return <p>Custormers Page</p>;
+  return (
+    <main>
+    <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
+      Customers page
+    </h1>
+    <p>In developmnet...</p> 
+    </main>
+  )
 }
